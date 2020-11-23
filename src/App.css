@@ -1,3 +1,17 @@
+button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #F5A9BC;  
+  font-weight: bolder;  
+  color: white;
+  margin: 10px;
+}
+  button:hover {
+    background-color: rgb(206, 194, 30);  
+    font-weight: bolder;  
+    color: black;
+  }
+
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
