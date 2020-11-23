@@ -2,7 +2,7 @@ import React from 'react';
 import HogCard from '../components/HogCard';
 
 export default function HogsContainer (props) {
-    console.log(props)
+    // console.log(props)
 
     // RENDER HOGS AND ADD A UNIQ KEY FOR EACH HOG
     // const renderHogs = () => props.hogs.map(hog => <HogCard hog={hog}/>)

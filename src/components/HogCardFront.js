@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function HogCardFront (props) {
-    console.log(props)
+    // console.log(props)
 
     // PULL IN FILES FROM LOCAL ASSETS (make sure to use require())
     let pigImage = require("../hog-imgs/" + props.name
@@ -9,7 +9,7 @@ export default function HogCardFront (props) {
         .split(" ")
         .join("_") + ".jpg"
     )
-    console.log(pigImage)
+    // console.log(pigImage)
 
     return(
         // <div>

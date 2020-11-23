@@ -83,8 +83,9 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
-  width: 80%;
-  height: 80%;
+  width: 95%;
+  height: 95%;
+  font-weight: bold;
 }
 
 .pigTile img {
