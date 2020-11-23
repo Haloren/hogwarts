@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import HogCardFront from './HogCardFront'
 
 export default class HogCard extends Component {
 
@@ -10,10 +11,11 @@ export default class HogCard extends Component {
         console.log(this.props)
         return (
             <div className="ui eight wide column">
-                <div className="pigTile">
+                {/* <div className="pigTile"> */}
                     {/* <h3>Hog Card</h3> */}
-                    <h3> {name} </h3>
-                </div>
+                    {/* <h3> {name} </h3> */}
+                    <HogCardFront name={name}/>
+                {/* </div> */}
             </div>
         )
     }
